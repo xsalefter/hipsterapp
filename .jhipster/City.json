@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "3"
+        },
+        {
+            "fieldName": "district",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "population",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170526233234",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "city",
+    "pagination": "pagination"
+}
