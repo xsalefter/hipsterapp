@@ -14,7 +14,7 @@ import { PaginationConfig } from '../../blocks/config/uib-pagination.config';
 })
 export class CityComponent implements OnInit, OnDestroy {
 
-currentAccount: any;
+    currentAccount: any;
     cities: City[];
     error: any;
     success: any;
