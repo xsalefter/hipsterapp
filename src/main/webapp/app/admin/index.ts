@@ -26,4 +26,7 @@ export * from './user-management/user-management-detail.component';
 export * from './user-management/user-management.component';
 export * from './user-management/user-management.route';
 export * from './user-management/user-modal.service';
+export * from './elasticsearch/elasticsearch-reindex-dialog.component';
+export * from './elasticsearch/elasticsearch.service';
+export * from './elasticsearch/elasticsearch.route';
 export * from './admin.route';

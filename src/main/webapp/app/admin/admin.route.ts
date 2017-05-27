@@ -8,12 +8,14 @@ import {
     logsRoute,
     metricsRoute,
     userMgmtRoute,
-    userDialogRoute
+    userDialogRoute,
+    elasticSearchRoute
 } from './';
 
 import { UserRouteAccessService } from '../shared';
 
 const ADMIN_ROUTES = [
+    elasticSearchRoute,
     auditsRoute,
     configurationRoute,
     docsRoute,
