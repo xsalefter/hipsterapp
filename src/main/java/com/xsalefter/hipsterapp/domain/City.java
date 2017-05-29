@@ -25,19 +25,19 @@ public class City implements Serializable {
     private Long id;
 
     @NotNull
-    @Column(name = "Name", nullable = false)
+    @Column(name = "`Name`", nullable = false)
     private String name;
 
     @NotNull
     @Size(min = 1, max = 3)
-    @Column(name = "CountryCode", length = 3, nullable = false)
+    @Column(name = "`CountryCode`", length = 3, nullable = false)
     private String countryCode;
 
     @NotNull
-    @Column(name = "District", nullable = false)
+    @Column(name = "`District`", nullable = false)
     private String district;
 
-    @Column(name = "Population")
+    @Column(name = "`Population`")
     private Integer population;
 
     public Long getId() {
